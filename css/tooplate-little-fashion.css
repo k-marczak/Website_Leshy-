@@ -121,11 +121,14 @@
 body,
 html {
   height: 100%;
-  overflow-x: auto;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
