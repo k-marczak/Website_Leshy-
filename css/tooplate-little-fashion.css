@@ -1,10 +1,10 @@
 /* Main css */
 
 
- /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! section pictures !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! section pictures !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 
- .front-product1 img{
+.front-product1 img {
   width: 490px;
   height: auto;
   margin: auto;
@@ -12,12 +12,12 @@
   border: 3px solid #556B2F;
   border-radius: 5px;
 
- }
+}
 
 
- /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! LEHSY LOGO NAVBAR !!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! LEHSY LOGO NAVBAR !!!!!!!!!!!!!!!!!!!!!!!! */
 
-#leshy_logo{
+#leshy_logo {
   height: 55px;
 }
 
@@ -26,7 +26,7 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! GALLERY MAIN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 
-#main_gallery_header{
+#main_gallery_header {
 
   margin-top: 300px;
 
@@ -40,12 +40,12 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 15px;     
+  grid-gap: 15px;
 
 }
 
 
-.gallery img{
+.gallery img {
   width: 200px;
   height: auto;
   border: 4px solid #556B2F;
@@ -60,7 +60,7 @@
   grid-gap: 15px;
 }
 
-#quality_work{
+#quality_work {
   margin-top: 140px;
 }
 
@@ -84,7 +84,7 @@
 
 /* work_gallery-section */
 
-#work_gallery-section{
+#work_gallery-section {
   margin-top: 50px;
   margin-bottom: 80px;
 }
@@ -123,7 +123,7 @@ html {
   height: 100%;
 }
 
-.pojemnik{
+.pojemnik {
   width: 100vw;
   overflow: hidden;
 }
@@ -465,7 +465,7 @@ h4 span {
   margin-left: 1.5rem;
 }
 
-.navbar-nav{
+.navbar-nav {
   margin-right: 100px;
 }
 
@@ -1141,7 +1141,7 @@ button:focus:not(:focus-visible) {
 .site-footer {
   background: var(--white-color);
   padding-top: 2rem;
-  
+
 }
 
 .footer-menu {
@@ -1331,20 +1331,66 @@ button:focus:not(:focus-visible) {
 }
 
 
+
+@media only screen and (max-width: 700px) {
+
+  .gallery2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+
+  .gallery2 img {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+}
+
+
 @media only screen and (max-width: 400px) {
-  .resp-image{
+
+  .resp-image {
     height: 130px !important;
     width: auto !important;
     margin: 0;
     padding: 0;
     text-align: center;
-    
+
   }
 
 
-  .resp-image2{
+  .resp-image2 {
     height: auto !important;
     width: 120px !important;
   }
+
+
+  .p-resp {
+    margin: 5px !important;
+    padding: 5px !important;
+    font-size: 16px !important;
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+
+  }
+
+  .headers-resp {
+    font-size: 28px !important;
+  }
+
+
+  #f-header {
+    font-size: 37px !important;
+  }
+
+  #f-p {
+    font-size: 20px !important;
+  }
+
+
+
+
+
 
 }
