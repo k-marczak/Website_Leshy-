@@ -123,16 +123,16 @@ html {
   height: 100%;
 }
 
-html {
+.pojemnik{
   width: 100vw;
-  overflow-x: hidden;
+  overflow: hidden;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
-body{
-  width: 100vw;
-  overflow-x: hidden;
-}
+
 
 @media screen and (prefers-reduced-motion: reduce) {
   html {
