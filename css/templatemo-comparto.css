@@ -1,21 +1,16 @@
-/*
 
-Comparto TemplateMo
+.front-product{
+  
+  margin-bottom: 200px;
+}
 
-https://templatemo.com/tm-544-comparto
 
 
-Color Codes
-------------
-Purple: #9999CC
-Pink: #CC9999
-Grey: #666666
-Sky Blue: #99CCFF
-Green: #99CC99
-Light Grey: #F2F2F2
-Text Color: #666
+.site-header img{
+  filter: brightness(50%);
+}
 
-*/
+
 
 *,
 *::before,
@@ -32,9 +27,6 @@ ul, h1, h2, h3, h4, p, figure {
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 18px;
-  overflow-x: hidden;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0;
 }
 
@@ -270,7 +262,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .tm-gallery-filter > li > a {
   display: block;
   margin: 5px;
-  color: #333;
+  color: grey;
 }
 
 .tm-gallery-filter > li > a.active,
@@ -283,7 +275,12 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .tm-gallery-outer {
   margin-left: -10px;
   margin-right: -10px;
-  background-color: white;
+  background-color: black;
+}
+
+.tm-gallery-outer img {
+  border: 3px solid #556B2F;
+  border-radius: 2px;
 }
 
 .tm-gallery {
